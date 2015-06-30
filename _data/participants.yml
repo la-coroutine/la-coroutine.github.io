@@ -1,0 +1,48 @@
+- name: Pierre
+  github_page: https://github.com/
+  repo: https://github.com/IndiePaaS/IndiePaaS
+  blog: https://microblog.pierre-o.fr/
+  goal: https://microblog.pierre-o.fr/2015/introducing-ouisharelabs-camp
+  picture: https://www.gravatar.com/avatar/367d918791a831e447fb0057da804f51
+  twitter: https://twitter.com/pierreozoux
+
+- name: Maxime
+  github_page: https://github.com/maxlath
+  repo: https://github.com/maxlath/inventaire
+  blog: http://maxlath.eu
+  goal: http://maxlath.eu/p2p-rm
+  picture: https://gravatar.com/avatar/b6479772940aba5022e24bd90c8b9706
+  twitter: https://twitter.com/maxlath
+
+- name: Jon
+  github_page: https://github.com/almereyda
+  repo: https://github.com/allmende/allmende.github.io
+  blog: http://blog.jonrichter.de
+  goal: http://transformap.co
+  picture: http://jonrichter.de/media/2014avatar.jpg
+  twitter: https://twitter.com/almereyda
+
+- name: James
+  github_page: https://github.com/HazardJ
+  repo: https//github.com/commonaccord
+  twitter: https://twitter.com/commonaccord
+
+- name: Hugo
+  github_page: https://github.com/hugoroy
+  blog: https://hroy.eu/
+  twitter: https://twitter.com/hugoroyd
+
+- name: M4Dz
+  github_page: https://github.com/m4dz
+  repo: https://github.com/m4dz/m4dz.net
+  blog: http://m4dz.net
+  picture: http://m4dz.net/assets/images/m4dz.jpg
+  twitter: https://twitter.com/m4d_z
+
+- name: Sébastien
+  github_page: https://github.com/MaloData
+  picture: http://www.gravatar.com/avatar/ed40a06a398c3527a50f36ef1e58c91f.png
+  twitter: https://twitter.com/ST4Good
+
+
+

@@ -1,0 +1,14 @@
+- name: Laver les toilettes
+  id: lavertoilettes
+  meta: Pour nettoyer les toilettes
+  image: 
+  website: 
+
+
+- name: Acheter du café
+  id: achetercafe
+  meta: Le café se trouve dans le tiroir en métal. Si il n'y en a plus merci d'en racheter
+  image: auli.jpg
+  website: http://wiki.lacoroutine.org/contribution:cafethe 
+
+

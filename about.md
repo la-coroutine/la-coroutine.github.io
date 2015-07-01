@@ -1,8 +1,6 @@
 ---
 layout: default
 title: A propos
-permalink: /about/
-published: true
 ---
 
   <section id="coworking">
@@ -13,6 +11,5 @@ published: true
                    Padaboum !
                 </p>
                
-            </div>
             </div>
   </section>

@@ -1,5 +1,8 @@
 ---
 layout: default
+title: A propos
+permalink: /about/
+published: true
 ---
 
   <section id="coworking">

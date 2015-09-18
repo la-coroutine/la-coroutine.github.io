@@ -1,9 +1,19 @@
 - name: Simon Sarazin
   id: simonsarazin
-  image: 
+  image: simonsarazin.jpg
   role: 
   meta: 
   twitter_username: simons_fr
+  website:
+
+
+
+- name: Alban
+  id: alban
+  image: albantiberghien.jpg
+  role: 
+  meta: 
+  twitter_username:
   website:
 
 

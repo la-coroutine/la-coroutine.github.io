@@ -825,3 +825,9 @@ footer {
 .l-agenda .bg {
   z-index: -1 !important;
 }
+
+.l-agenda .col-right {
+    float: left;
+    width: 310px;
+    margin: 73px 0px 0px 0px;
+}

@@ -831,3 +831,7 @@ footer {
     width: 310px;
     margin: 73px 0px 0px 0px;
 }
+
+.l-agenda .block:first-child {
+  padding-bottom: 0px !important;
+}

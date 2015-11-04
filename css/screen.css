@@ -820,3 +820,18 @@ footer {
   text-align: center;
   width: 100%;
 }
+
+/* WAT! What's this stylesheet?! */
+.l-agenda .bg {
+  z-index: -1 !important;
+}
+
+.l-agenda .col-right {
+    float: left;
+    width: 310px;
+    margin: 73px 0px 0px 0px;
+}
+
+.l-agenda .block:first-child {
+  padding-bottom: 0px !important;
+}

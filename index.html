@@ -2,300 +2,249 @@
 layout: default
 ---
 <section id="home">
-            <div id="video-test" class="top">
-                <h1><img src="img/logo_coco.png" alt="La Coroutine : Créer, apprendre, partager" width="183" height="182" /></h1>
-            </div>
-            <!--<div id="ustream">
-                <iframe width="480" height="302" src="http://www.ustream.tv/embed/13681391?v=3&amp;wmode=direct" scrolling="no" frameborder="0" style="border: 0px none transparent;">    </iframe>
-                <p>
-                    A partir de 18h, la Coroutine s'inaugure en LIVE !<br />
-                    <span>(désolé pour les publicités, un chouïa envahissantes, elles ne sont aucunement le fruit de notre volonté)</span>
-                </p>
-            </div>-->
-
-            <ul id="menu">
-                <li><a href="#coworking">Co<br />Work<br />Ing</a></li>
-                <li><a href="#tierslieu">Tiers<br />-<br />Lieu<br /></a></li>
-                <li><a href="#events">Ateliers &amp;<br />Évèn<br />ements</a></li>
-            </ul>
-
-<!--
-
-<div style="padding-left: 30%">
-<br/>
-<span><i>&nbsp;</i></span>
-
-<table>
-<tr>
-<td>
-
-<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-<input type="hidden" name="cmd" value="_s-xclick">
-<input type="hidden" name="hosted_button_id" value="ZRA4D623G26WG">
-<table>
-<tr><td><input type="hidden" name="on0" value="Votre soutien :">Soutenir la Coroutine, une fois ou par mois (merci!)</td></tr><tr><td><select name="os0">
-  <option value="Mini">Mini : 5,00 EUR - mensuel</option>
-  <option value="Petit">Petit : 10,00 EUR - mensuel</option>
-  <option value="Moyen">Moyen : 20,00 EUR - mensuel</option>
-  <option value="Grand">Grand : 50,00 EUR - mensuel</option>
-  <option value="Très Grand">Très Grand : 100,00 EUR - mensuel</option>
-  <option value="Énorme">Énorme : 500,00 EUR - mensuel</option>
-</select> </td></tr>
-</table>
-<input type="hidden" name="currency_code" value="EUR">
-<input type="image" src="https://www.paypalobjects.com/fr_FR/FR/i/btn/btn_subscribe_LG.gif" border="0" name="submit" alt="PayPal - la solution de paiement en ligne la plus simple et la plus sécurisée !">
-<img alt="" border="0" src="https://www.paypalobjects.com/fr_FR/i/scr/pixel.gif" width="1" height="1">
-</form>
-
-
-</td>
-<td>
-<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-<input type="hidden" name="cmd" value="_s-xclick">
-<input type="hidden" name="hosted_button_id" value="L24WK8QNH8D6C">
-<input type="image" src="https://www.paypalobjects.com/fr_FR/FR/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - la solution de paiement en ligne la plus simple et la plus sécurisée !">
-<img alt="" border="0" src="https://www.paypalobjects.com/fr_FR/i/scr/pixel.gif" width="1" height="1">
-</form>
-</td>
-</tr>
-</table>
--->
-
+  <div id="video-test" class="top">
+    <h1><img src="img/logo_coco.png" alt="La Coroutine : Créer, apprendre, partager" width="183" height="182" /></h1>
   </div>
-            <!--<div id="tweet-feed">
-                <span><i>&nbsp;</i></span>
-                <strong>Ce soir, assemblée générale de l'ANIS, Usages citoyens et solidaires des TIC. http://Anis.Asso.fr</strong>
-            </div>-->
-        </section>
 
-        <!-- ############################################################################## -->
+  {% if site.data.messages.home %}
+    <div id="ustream">
+      <p>
+        {{ site.data.messages.home }}
+      </p>
+    </div>
+  {% endif %}
 
-        <section id="espace">
-            <div class="center">L'<br />Es<br />Pace</div>
-            <div class="container">
-                <div class="bg">&nbsp;</div>
-                <p class="intro">
-                    Un espace convivial construit, géré et financé par ses usagers pour créer, travailler, bidouiller, apprendre, innover, partager, échanger...
-                </p>
-                <div class="col-left">
-                    <div class="block">
-                        <h1>Qu'est-ce qu'on y trouve ?</h1>
-                        <p>
-                            Un espace de 160m² avec des tables, du café, du wifi, une salle de réunion, une salle détente, une cuisine et de la bonne humeur.
-                        </p>
-                        <a target="_blank" href="http://www.flickr.com/photos/61299367@N05/sets/72157634949533813/with/9448166157/">Voir les photos</a>
-                    </div>
-                    <div class="block">
-                        <h1>Comment ça marche ?</h1>
-                        <p>
-                            <span>La Coroutine est un espace contributif :</span>
-                            Chaque membre apporte un peu d’attention au lieu (faire sa vaisselle, arroser les plantes, charger le feu ou encore acceuillir un nouveau...). Pour s'inscrire, il suffit de pousser la porte.
-                        </p>
+  <ul id="menu">
+    <li><a href="#coworking">Co<br />Work<br />Ing</a></li>
+    <li><a href="#tierslieu">Tiers<br />-<br />Lieu<br /></a></li>
+    <li><a href="#events">Ateliers &amp;<br />Évén<br />ements</a></li>
+  </ul>
+</section>
 
-                        <br/>
-                        <p>Si vous souhaitez en savoir un peu plus sur l'histoire du lieu et ce qu'il s'y passe, jetez un oeil sur la <a target="_blank" href="https://cdn.knightlab.com/libs/timeline/latest/embed/?source=1EFavJEK47HQN6cJaSaR7tp1bI90DrSFEvijWFW6UQeY&font=Bevan-PotanoSans&maptype=toner">frise chronologique</a></p>
-                    </div>
-                </div>
-                <div class="col-right">
-                    <div class="block">
-                        <h1>Horaires et ouverture</h1>
-                        <p>
-                            Pour l'espace de coworking, de 9H30 à 19H+ les jours ouvrés. Pour les autres moments, c'est dépendant des événéments. </p>
-<p><em>Les permanents peuvent, bien entendu, élargir la plage horaire 9h30 / 19h00 ... mais surtout ne croyez pas qu'ils gagneront plus ! :)</em></p>
-			<a title="Agenda de la Coroutine" href="agenda.html">Consulter l'agenda</a>.
-                    </div>
-                    <div class="block">
-                        <h1>Où ça se trouve ?</h1>
-                        <p>
-                            Au 8 rue molière, 59000 Lille<br />
-                            Métro : Mairie de Lille<br />
-                            Station v’lille Porte de Paris à 1 minute
-                        </p>
-                        <a target="_blank" href="http://www.openstreetmap.org/?lat=50.629269&lon=3.06963&zoom=18&layers=Q">Voir sur le plan</a>
-                    </div>
-                </div>
-            </div>
-        </section>
+<!-- ############################################################################## -->
 
-         <!-- ############################################################################## -->
+<section id="espace">
+  <div class="center">L'<br />Es<br />Pace</div>
+  <div class="container">
+    <div class="bg">&nbsp;</div>
+    <p class="intro">
+      Un espace convivial construit, géré et financé par ses usagers pour créer, travailler, bidouiller, apprendre, innover, partager, échanger...
+    </p>
+    <div class="col-left">
+      <div class="block">
+        <h1>Qu'est-ce qu'on y trouve ?</h1>
+        <p>
+          Un espace de 160m² avec des tables, du café, du wifi, une salle de réunion, une salle détente, une cuisine et de la bonne humeur.
+        </p>
+        <a target="_blank" href="http://www.flickr.com/photos/61299367@N05/sets/72157634949533813/with/9448166157/">Voir les photos</a>
+      </div>
+      <div class="block">
+        <h1>Comment ça marche ?</h1>
+        <p>
+          <span>La Coroutine est un espace contributif :</span>
+          Chaque membre apporte un peu d’attention au lieu (faire sa vaisselle, arroser les plantes, charger le feu ou encore acceuillir un nouveau...). Pour s'inscrire, il suffit de pousser la porte.
+        </p>
+        <br/>
+        <p>
+          Si vous souhaitez en savoir un peu plus sur l'histoire du lieu et ce qu'il s'y passe, jetez un oeil sur la
+          <a target="_blank" href="https://cdn.knightlab.com/libs/timeline/latest/embed/?source=1EFavJEK47HQN6cJaSaR7tp1bI90DrSFEvijWFW6UQeY&font=Bevan-PotanoSans&maptype=toner">frise chronologique</a>
+        </p>
+      </div>
+    </div>
+    <div class="col-right">
+      <div class="block">
+        <h1>Horaires et ouverture</h1>
+        <p>
+          Pour l'espace de coworking, de 9H30 à 19H+ les jours ouvrés. Pour les autres moments, c'est dépendant des événéments.
+        </p>
+        <p><em>Les permanents peuvent, bien entendu, élargir la plage horaire 9h30 / 19h00 ... mais surtout ne croyez pas qu'ils gagneront plus ! :)</em></p>
+        <a title="Agenda de la Coroutine" href="agenda.html">Consulter l'agenda</a>.
+      </div>
+      <div class="block">
+        <h1>Où ça se trouve ?</h1>
+        <p>
+          Au 8 rue molière, 59000 Lille<br />
+          Métro : Mairie de Lille<br />
+          Station v’lille Porte de Paris à 1 minute
+        </p>
+        <a target="_blank" href="http://www.openstreetmap.org/?lat=50.629269&lon=3.06963&zoom=18&layers=Q">Voir sur le plan</a>
+      </div>
+    </div>
+  </div>
+</section>
 
-        <section id="coworking">
-            <div class="center">Co<br />Work<br />Ing</div>
-            <div class="container">
-                <div class="bg">&nbsp;</div>
-                <p class="intro">
-                    Un espace convivial pour développer vos projets, exercer votre activité, s’entrainer et échanger dans la bonne humeur. Wifi, café thé compris ; vous n’avez qu’à venir et vous installer. Pour une heure, une journée, une semaine, un an ou une vie... c’est aussi simple que ça ;-)
-                </p>
-                <div class="col-left">
-                    <div class="block">
-                        <h1>Travailler,<br /> développer ses projets</h1>
-                        <p class="first">20 tables partagées sont à disposition des coworkers. Libre à vous de choisir chaque jour votre place et vos voisins pour changer d’ambiance.</p>
-                        <p>Des écrans sont à disposition, ainsi que des casiers de rangement pour les réguliers.</p>
-                        <br/>
-                        <p>La première journée de découverte est à prix libre et nous acceptons le Coworking Visa.</p>
-                        <a target="_blank" title="Tarifs" href="http://boutique.lacoroutine.org/shop/category/espace-coworking-2">Voir les tarifs sur la boutique</a>
-                    </div>
-                    <div class="block">
-                        <h1>Se réunir</h1>
-                        <p>Venez profiter du cadre inspirant de notre salle de réunion ! Paper board, mur à la craie, vidéoprojecteur sont à disposition.<br />
-                        <p>Nous pouvons accueillir jusqu’à 20 personnes en fonction de la configuration nécessaire.</p>
-			<p>Pour réserver la salle de réunion, planifier un évènement ou consulter l'agenda : c'est ici sur la page <a title="Agenda de la Coroutine" href="agenda.html">Agenda</a>.</p>
-                    </div>
-                </div>
-                <div class="col-right">
-                    <div class="block">
-                        <h1>Se détendre</h1>
-                        <p>Prenez un break dans notre espace de détente.</p>
-                        <p>Notre bar vous propose d’excellents cafés, thé jus (fair trade/bio) pour accompagner une lecture de la bibliothèque, une pause dans les hamacs ou épauler un moment de convivialité autour d’un jeu de société.</p>
-                    </div>
-                    <div id="coworkinglille">
-                        <strong>Membre du réseau CoworkingLille</strong>
-                        <img src="img/coworkinglille.png" alt="Coworking Lille" />
-                    </div>
-                </div>
-                <div id="stats">
-                    <div class="stat">
-                        <img src="img/stat1.png" alt="15%" />
-                        <p>15% des coworkers sont des membres réguliers</p>
-                    </div>
-                    <div class="stat">
-                        <img src="img/stat2.png" alt="62%" />
-                        <p>62% déclarent préférer la Coroutine à leur domicile personnel</p>
-                    </div>
-                    <div class="stat">
-                        <img src="img/stat3.png" alt="99%" />
-                        <p>99% des membres ont constaté un gain de séduisance suite à leur adhésion</p>
-                    </div>
-                    <div class="stat">
-                        <img src="img/stat4.png" alt="70%" />
-                        <p>70% des coworkers ont pour habitude de faire preuve</p>
-                    </div>
-                </div>
-            </div>
-        </section>
+ <!-- ############################################################################## -->
 
-         <!-- ############################################################################## -->
+<section id="coworking">
+  <div class="center">Co<br />Work<br />Ing</div>
+  <div class="container">
+    <div class="bg">&nbsp;</div>
+    <p class="intro">
+      Un espace convivial pour développer vos projets, exercer votre activité, s’entrainer et échanger dans la bonne humeur. Wifi, café thé compris ; vous n’avez qu’à venir et vous installer. Pour une heure, une journée, une semaine, un an ou une vie... c’est aussi simple que ça ;-)
+    </p>
+    <div class="col-left">
+      <div class="block">
+        <h1>Travailler,<br /> développer ses projets</h1>
+        <p class="first">20 tables partagées sont à disposition des coworkers. Libre à vous de choisir chaque jour votre place et vos voisins pour changer d’ambiance.</p>
+        <p>Des écrans sont à disposition, ainsi que des casiers de rangement pour les réguliers.</p>
+        <br/>
+        <p>La première journée de découverte est à prix libre et nous acceptons le Coworking Visa.</p>
+        <a target="_blank" title="Tarifs" href="http://boutique.lacoroutine.org/shop/category/espace-coworking-2">Voir les tarifs sur la boutique</a>
+      </div>
+      <div class="block">
+        <h1>Se réunir</h1>
+        <p>Venez profiter du cadre inspirant de notre salle de réunion ! Paper board, mur à la craie, vidéoprojecteur sont à disposition.<br />
+          <p>Nous pouvons accueillir jusqu’à 20 personnes en fonction de la configuration nécessaire.</p>
+          <p>Pour réserver la salle de réunion, planifier un événement ou consulter l'agenda : c'est ici sur la page <a title="Agenda de la Coroutine" href="agenda.html">Agenda</a>.</p>
+      </div>
+    </div>
+    <div class="col-right">
+      <div class="block">
+        <h1>Se détendre</h1>
+        <p>Prenez un break dans notre espace de détente.</p>
+        <p>Notre bar vous propose d’excellents cafés, thé jus (fair trade/bio) pour accompagner une lecture de la bibliothèque, une pause dans les hamacs ou épauler un moment de convivialité autour d’un jeu de société.</p>
+      </div>
+      <div id="coworkinglille">
+        <strong>Membre du réseau CoworkingLille</strong>
+        <img src="img/coworkinglille.png" alt="Coworking Lille" />
+      </div>
+    </div>
+    <div id="stats">
+      <div class="stat">
+        <img src="img/stat1.png" alt="15%" />
+        <p>15% des coworkers sont des membres réguliers</p>
+      </div>
+      <div class="stat">
+        <img src="img/stat2.png" alt="62%" />
+        <p>62% déclarent préférer la Coroutine à leur domicile personnel</p>
+      </div>
+      <div class="stat">
+        <img src="img/stat3.png" alt="99%" />
+        <p>99% des membres ont constaté un gain de séduisance suite à leur adhésion</p>
+      </div>
+      <div class="stat">
+        <img src="img/stat4.png" alt="70%" />
+        <p>70% des coworkers ont pour habitude de faire preuve</p>
+      </div>
+    </div>
+  </div>
+</section>
 
-        <section id="tierslieu">
-            <div class="center">Tiers<br />-<br />Lieu</div>
-            <div class="container">
-                <div class="bg">&nbsp;</div>
-                <p class="intro">
-                   Au delà du travail, la Coroutine accueille de nombreuses activités : marché de légumes bio, mise à disposition de moyens pour les réunions de quartiers, partage d'outils, ...
-                </p>
-                <div class="col-left">
-                  <div class="block">
-                    <h2>Marché, cantine, <br/>outils, ...</h2>
-                      <p>
-                        Chaque lundi soir, <a href="http://www.lafermedupommier.com/">Kévin</a>, notre maraîcher transforme l'espace en mini-marché aux légumes biologiques. Vous pouvez pré-commander votre panier chaque fin de semaine précédente en suivant <a target="_blank" href="http://wiki.lacoroutine.org/contribution:coucourses">ce lien</a>.
-                      </p>
+<!-- ############################################################################## -->
 
-                    <p>
-                      Le midi, c'est la <a target="_blank" href="http://wiki.lacoroutine.org/contribution:cocotte">Cocotte</a> : pour les motivés, nous préparons ensemble un repas végétarien que nous dégustons ensuite dans une ambiance conviviale.
-                    </p>
+<section id="tierslieu">
+  <div class="center">Tiers<br />-<br />Lieu</div>
+  <div class="container">
+    <div class="bg">&nbsp;</div>
+    <p class="intro">
+     Au delà du travail, la Coroutine accueille de nombreuses activités : marché de légumes bio, mise à disposition de moyens pour les réunions de quartiers, partage d'outils, ...
+    </p>
+    <div class="col-left">
+      <div class="block">
+        <h2>Marché, cantine, <br/>outils, ...</h2>
+        <p>
+          Chaque lundi soir, <a href="http://www.lafermedupommier.com/">Kévin</a>, notre maraîcher transforme l'espace en mini-marché aux légumes biologiques. Vous pouvez pré-commander votre panier chaque fin de semaine précédente en suivant <a target="_blank" href="http://wiki.lacoroutine.org/contribution:coucourses">ce lien</a>.
+        </p>
+        <p>
+          Le midi, c'est la <a target="_blank" href="http://wiki.lacoroutine.org/contribution:cocotte">Cocotte</a> : pour les motivés, nous préparons ensemble un repas végétarien que nous dégustons ensuite dans une ambiance conviviale.
+        </p>
+        <p>
+          Nous avons aussi du matériel de prototypage et de bricolage disponible sur place : Arduino, fers à souder, perceuses, etc... à utiliser sur place ou à emprunter.
+        </p>
+        <p>
+          Bref, vous l'aurez compris : la Coroutine, c'est <strong>votre lieu</strong> ! N'hésitez pas à nous contacter si vous souhaitez mettre en place une activité au sein de l'espace, nous vous recevrons avec plaisir.
+        </p>
+      </div>
+    </div>
+    <div class="col-right">
+      <div id="meuhlab">
+        <strong>Membre du réseau m.e.u.h|lab</strong>
+        <img src="img/meuhlab.png" alt="m.e.u.h|lab" />
+      </div>
+      <div id="meuhpics">
+        <div>
+          <img src="img/maker1.png" alt="Marché" />
+          <p>Marché</p>
+        </div>
+        <div>
+          <img src="img/maker2.png" alt="Bouffe" />
+          <p>Cocotte</p>
+        </div>
+        <div>
+          <img src="img/maker3.png" alt="Prototypage" />
+          <p>Prototypage</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 
-                    <p>
-                      Nous avons aussi du matériel de prototypage et de bricolage disponible sur place : Arduino, fers à souder, perceuses, etc... à utiliser sur place ou à emprunter.
-                    </p>
+<!-- ############################################################################## -->
 
-                  <p>
-                    Bref, vous l'aurez compris : la Coroutine, c'est <strong>votre lieu</strong> ! N'hésitez pas à nous contacter si vous souhaitez mettre en place une activité au sein de l'espace, nous vous recevrons avec plaisir.
-                  </p>
+<section id="events">
+  <div class="center">Ateliers &amp;<br />Évèn<br />Ements</div>
+  <div class="container">
+    <div class="col-left">
+      <div class="block">
+        <h1>Ateliers &amp; conférences</h1>
+        <p>
+          Si vous souhaitez organiser un atelier, l’espace de réunion est modulable et peut tout à fait s’adapter à ce type d’événements. Avec ou sans tables, vous choisissez.
+        </p>
+        <p>
+          En ce qui concerne les conférences, si vous avez besoin d’un grand espace, l’espace de coworking peut se transformer en soirée & week ends pour acceuillir jusqu’à 60 personnes.
+          Bien entendu, notre bar est présent pour vous assurer de quoi désaltérer les participants durant votre événement, avec de bons produits locaux.
+        </p>
+        <a title="Ouvrir l'agenda" href="agenda.html">Planifier un événement</a>
+      </div>
+      <div class="block">
+        <h1>Privatiser l'espace</h1>
+        <p>
+          Vous souhaitez la Coroutine rien que pour vous ? On vous comprend ... c’est possible en soirée (à partir de 19h) et le week-end.
+        </p>
+        <a href="#contact">Contactez-nous pour plus d'informations</a>
+      </div>
+    </div>
+  </div>
+</section>
 
+<!-- ############################################################################## -->
 
-
-                    </div>
-                </div>
-                <div class="col-right">
-
-                    <div id="meuhlab">
-                        <strong>Membre du réseau m.e.u.h|lab</strong>
-                        <img src="img/meuhlab.png" alt="m.e.u.h|lab" />
-                    </div>
-                    <div id="meuhpics">
-                        <div>
-                            <img src="img/maker1.png" alt="Marché" />
-                            <p>Marché</p>
-                        </div>
-                        <div>
-                            <img src="img/maker2.png" alt="Bouffe" />
-                            <p>Cocotte</p>
-                        </div>
-                        <div>
-                            <img src="img/maker3.png" alt="Prototypage" />
-                            <p>Prototypage</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-         <!-- ############################################################################## -->
-
-        <section id="events">
-            <div class="center">Ateliers &amp;<br />Évèn<br />Ements</div>
-            <div class="container">
-                <div class="col-left">
-                    <div class="block">
-                        <h1>Ateliers &amp; conférences</h1>
-                        <p>
-                            Si vous souhaitez organiser un atelier, l’espace de réunion est modulable et peut tout à fait s’adapter à ce type d’événements. Avec ou sans tables, vous choisissez.
-                        </p>
-                        <p>
-                            En ce qui concerne les conférences, si vous avez besoin d’un grand espace, l’espace de coworking peut se transformer en soirée & week ends pour acceuillir jusqu’à 60 personnes.
-                            Bien entendu, notre bar est présent pour vous assurer de quoi désaltérer les participants durant votre événement, avec de bons produits locaux.
-                        </p>
-                        <a title="Ouvrir l'agenda" href="agenda.html">Planifier un évènement</a>
-                    </div>
-                    <div class="block">
-                        <h1>Privatiser l'espace</h1>
-                        <p>
-                            Vous souhaitez la Coroutine rien que pour vous ? On vous comprend ... c’est possible en soirée (à partir de 19h) et le week-end.
-                        </p>
-                        <a href="#contact">Contactez-nous pour plus d'informations</a>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- ############################################################################## -->
-
-        <section id="contact">
-            <div class="top">&nbsp;</div>
-            <div class="container">
-                <div class="col-left">
-                    <div class="block">
-                        <h1>Nous contacter</h1>
-                        <p>
-                            <span class="tel">09 72 40 33 20</span>
-                            <a class="mail" href="mailto:contact@lacoroutine.org">contact@lacoroutine.org</a>
-                        </p>
-                    </div>
-                    <div class="block">
-                        <h1>Venir</h1>
-                        <p>
-                            <span class="adresse">8 rue Molière<br />59000 Lille</span>
-                            <span class="horaires">Du Lundi au Vendredi<br /> de 9h00 à 19h+</span>
-                            <span class="horaires">Possibilité d'avoir accès plus tôt, plus tard ou le week-end.</span>
-                        </p>
-                    </div>
-                </div>
-                <div class="col-right">
-                    <div class="block">
-                        <h1>Nébuleuse Coroutine</h1>
-                        <p>
-                            <a target="_blank" href="http://wiki.lacoroutine.org/">Le wiki</a> // <a target="_blank" href="http://lists.lacoroutine.org/">La liste de discussion</a>
-                        </p>
-                    </div>
-                    <div class="block">
-                        <h1>Réseau</h1>
-                        <p>
-                            <a target="_blank" href="http://www.mutualab.org">Mutualab</a>
-                            <a target="_blank" href="http://www.meuhlab.org/">Le m.e.u.h | Lab</a>
-                            <a target="_blank" href="http://www.catalyst-initiative.org/">Catalyst</a>
-                            <a target="_blank" href="http://nord.tiers-lieux.org/">Les tiers-lieux du nord</a>
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </section>
+<section id="contact">
+  <div class="top">&nbsp;</div>
+  <div class="container">
+    <div class="col-left">
+      <div class="block">
+        <h1>Nous contacter</h1>
+        <p>
+          <span class="tel">09 72 40 33 20</span>
+          <a class="mail" href="mailto:contact@lacoroutine.org">contact@lacoroutine.org</a>
+        </p>
+      </div>
+      <div class="block">
+        <h1>Venir</h1>
+        <p>
+          <span class="adresse">8 rue Molière<br />59000 Lille</span>
+          <span class="horaires">Du Lundi au Vendredi<br /> de 9h00 à 19h+</span>
+          <span class="horaires">Possibilité d'avoir accès plus tôt, plus tard ou le week-end.</span>
+        </p>
+      </div>
+    </div>
+    <div class="col-right">
+      <div class="block">
+        <h1>Nébuleuse Coroutine</h1>
+        <p>
+          <a target="_blank" href="http://wiki.lacoroutine.org/">Le wiki</a> // <a target="_blank" href="http://lists.lacoroutine.org/">La liste de discussion</a>
+        </p>
+      </div>
+      <div class="block">
+        <h1>Réseau</h1>
+        <p>
+          <a target="_blank" href="http://www.mutualab.org">Mutualab</a>
+          <a target="_blank" href="http://www.meuhlab.org/">Le m.e.u.h | Lab</a>
+          <a target="_blank" href="http://www.catalyst-initiative.org/">Catalyst</a>
+          <a target="_blank" href="http://nord.tiers-lieux.org/">Les tiers-lieux du nord</a>
+        </p>
+      </div>
+    </div>
+  </div>
+</section>

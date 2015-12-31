@@ -1,4 +1,5 @@
 # Site settings
+name: La Coroutine
 title: "La Coroutine - Créer, Apprendre, Partager"
 email: contact@lacorotuine.org
 description: > # this means to ignore newlines until "baseurl:"

@@ -1,0 +1,28 @@
+.l-page {
+  background: #e6e6e6 url('../img/page_bg.png?1363783748') no-repeat fixed center center;
+  color: #242424;
+  min-height: 670px;
+  padding-top: 60px;
+
+  h1 {
+    color: #242424;
+    font-family: Kankin, Verdana, Tahoma, sans-serif;
+    font-size: 3rem;
+    line-height: 3.3rem;
+    padding-top: 1rem;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+
+    &:hover {
+      background: url('../img/title_border_black_horizontal.png?1363621409') no-repeat;
+    }
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
+
+  p {
+    margin-bottom: 1rem;
+  }
+}

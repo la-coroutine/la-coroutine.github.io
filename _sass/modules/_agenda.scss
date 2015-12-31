@@ -1,15 +1,19 @@
 .m-agenda {
-  .bg {
-    z-index: -1 !important;
-  }
-
   .col-right {
     float: left;
     width: 310px;
-    margin: 73px 0px 0px 0px;
+    margin: 0;
+    padding: 0 4rem;
   }
 
   .block:first-child {
     padding-bottom: 0px !important;
+  }
+
+  .prices {
+    display: block;
+    margin-top: 1rem;
+    text-align: right;
+    text-decoration: underline;
   }
 }

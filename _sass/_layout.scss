@@ -18,6 +18,19 @@ body {
   font-family: Futura, Arial, Helvetica, sans-serif;
 }
 
+a {
+  color: #242424;
+
+  &:active, &:visited {
+    color: #242424;
+  }
+
+  &:hover {
+    color: #242424;
+    text-decoration: underline;
+  }
+}
+
 .container {
   width: 970px;
   margin: 0 auto;
@@ -63,9 +76,9 @@ body {
 }
 
 .block > p > a {
-    display: inline;
-    font-size: 0.75rem;
-    margin: 0;
+  display: inline;
+  font-size: 0.75rem;
+  margin: 0;
 }
 
 footer {

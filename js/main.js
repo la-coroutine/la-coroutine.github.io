@@ -24,7 +24,7 @@ $(document).ready(function(){
         $(this).parent('li').addClass('active');
     });
 
-    $('#video-test').videoBG({
+    $('#video-home').videoBG({
         webm:'assets/header.webm',
         poster:'img/video_coco.jpg',
         scale:true,

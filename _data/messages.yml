@@ -1,3 +1,9 @@
 # Appears on home page. Example:
-# home: "A partir de 18h, la Coroutine s'inaugure en LIVE !"
+# home:
+#   content: "A partir de 18h, la Coroutine s'inaugure en LIVE !"
 home:
+  title: "Samedi 16 Janvier - La Coroutine fête ses 5 ans"
+  content: |
+    Cette soirée spéciale sera sous le thème de la Fête Foraine. Au programme, concerts, bière artisanale, pêche aux canards, jeux et plein de surprises.
+  link: https://www.facebook.com/events/1058385214194684/"
+  picture: "events/20160116-fete-cinq-ans.jpg"

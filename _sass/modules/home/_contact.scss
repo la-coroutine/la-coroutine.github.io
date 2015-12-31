@@ -1,0 +1,102 @@
+#contact {
+  width: 100%;
+  height: 750px;
+}
+
+#contact .top {
+  background: url('../img/map_bg.jpg?1363949424') no-repeat center center;
+  height: 325px;
+  width: 100%;
+}
+
+#contact .col-left {
+  width: 480px;
+  float: left;
+  padding: 0 50px 0 0;
+}
+
+#contact .col-left .block {
+  width: 480px;
+}
+
+#contact .col-left h2, #contact .col-left h1 {
+  float: left;
+  width: 220px;
+  padding: 0 20px 0 0;
+  text-align: right;
+}
+
+#contact .col-left p {
+  width: 240px;
+  float: left;
+  padding: 0;
+}
+
+#contact .col-left a {
+  font-weight: normal;
+}
+
+#contact .col-left .tel {
+  display: block;
+  font-size: 0.9rem;
+  line-height: 1.5rem;
+  padding: 0 0 0 35px;
+  background: url('../img/tel.gif?1363955003') no-repeat 5px center;
+}
+
+#contact .col-left .mail {
+  display: block;
+  font-size: 0.9rem;
+  line-height: 1.5rem;
+  padding: 0 0 0 35px;
+  color: #242424;
+  margin: 0;
+  background: url('../img/mail.gif?1363954983') no-repeat left center;
+}
+
+#contact .col-left .adresse {
+  display: block;
+  font-size: 0.9rem;
+  line-height: 1.5rem;
+  padding: 0 0 0 35px;
+  background: url('../img/adresse.gif?1363955020') no-repeat 5px 0;
+  margin: 0 0 25px;
+}
+
+#contact .col-left .horaires {
+  display: block;
+  font-size: 0.9rem;
+  line-height: 1.5rem;
+  padding: 0 0 0 35px;
+  background: url('../img/horaires.gif?1363955056') no-repeat 5px 0;
+}
+
+#contact .col-left .block:first-child {
+  padding: 60px 0 90px 0;
+}
+
+#contact .col-right {
+  width: 440px;
+  float: left;
+  margin: 0;
+}
+
+#contact .col-right .block {
+  width: 440px;
+}
+
+#contact .col-right a {
+  display: inline;
+  color: #242424;
+  font-weight: normal;
+  margin: 0 5px 0 0;
+}
+
+#contact .col-right .block:first-child {
+  padding: 60px 0 36px 0;
+}
+
+#contact .col-right .block:last-child a {
+  display: block;
+  line-height: 1.5rem;
+}

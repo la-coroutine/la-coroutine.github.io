@@ -1,0 +1,83 @@
+#navbar {
+  width: 970px;
+  height: 50px;
+  position: fixed;
+  top: 0;
+  left: 50%;
+  margin: 0 -485px;
+  background: rgba(255, 255, 255, 0.9);
+  z-index: 1000;
+  -webkit-border-radius: 0 0 6px 6px;
+  -moz-border-radius: 0 0 6px 6px;
+  -ms-border-radius: 0 0 6px 6px;
+  -o-border-radius: 0 0 6px 6px;
+  border-radius: 0 0 6px 6px;
+}
+
+#navbar ul {
+  padding: 0 0 0 30px;
+}
+
+#navbar ul li {
+  display: block;
+  float: left;
+  line-height: 50px;
+  font-size: 0.85rem;
+  padding: 0 22px 0 0;
+}
+
+#navbar ul li a {
+  color: #706f6f;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+#navbar ul li a:hover {
+  color: #ff6e6e;
+}
+
+#navbar ul li.active a {
+  color: #ff6e6e;
+}
+
+#navbar a.twitter {
+  text-indent: -999rem;
+  background: url('../img/twitter_ico.png?1363604849') no-repeat center center;
+  display: block;
+  width: 28px;
+  height: 28px;
+  position: absolute;
+  top: 11px;
+  right: 54px;
+  outline: none;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+  border-radius: 15px;
+}
+
+#navbar a.twitter:focus, #navbar a.twitter:active, #navbar a.twitter:hover {
+  background-color: #0084B4;
+}
+
+#navbar a.facebook {
+  text-indent: -999rem;
+  background: url('../img/fb_ico.png?1363604830') no-repeat center center;
+  display: block;
+  width: 28px;
+  height: 28px;
+  position: absolute;
+  top: 11px;
+  right: 18px;
+  outline: none;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+  border-radius: 15px;
+}
+
+#navbar a.facebook:focus, #navbar a.facebook:active, #navbar a.facebook:hover {
+  background-color: #3B5998;
+}

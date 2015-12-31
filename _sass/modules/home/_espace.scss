@@ -1,0 +1,75 @@
+#espace {
+  height: 876px;
+  width: 100%;
+  position: relative;
+  background: url('../img/espace_bg.jpg?1363785285') no-repeat top center fixed;
+  color: white;
+}
+
+#espace .center {
+  font-family: Kankin, Verdana, Tahoma, sans-serif;
+  background: url('../img/title_border.png?1363713173') no-repeat scroll left 4px transparent;
+  display: block;
+  font-size: 3.5rem;
+  height: 172px;
+  left: 51%;
+  line-height: 3.9rem;
+  margin: 0 -83px;
+  padding: 0 0 0 25px;
+  position: absolute;
+  text-shadow: 1px 1px 1px black;
+  text-transform: uppercase;
+  top: 304px;
+  width: 166px;
+  z-index: 400;
+}
+
+#espace p.intro {
+  font-size: 1.05rem;
+  line-height: 1.3rem;
+  padding: 100px 0 0 15px;
+  width: 545px;
+}
+
+#espace .col-left .block:first-child {
+  padding: 70px 0 142px 0;
+}
+
+#espace .col-left .block:first-child a {
+  color: #ff6e6e;
+}
+
+#espace .col-left .block:last-child span {
+  display: block;
+  line-height: 2rem;
+}
+
+#espace .col-right .block:first-child {
+  margin-top: 80px;
+  padding-left: 10px;
+  margin-bottom: 154px;
+}
+
+#espace .col-right .block:last-child {
+  padding-left: 10px;
+}
+
+#espace .col-right .block:last-child p {
+  line-height: 1.25rem;
+}
+
+#espace a {
+  color: white;
+  position: relative;
+  z-index: 5000;
+}
+
+#espace .bg {
+  background: url('../img/leaf_over.png?1363525194') no-repeat fixed 50% 53% transparent;
+  height: 1300px;
+  margin: 0 auto;
+  padding: 0;
+  position: absolute;
+  width: 900px;
+  z-index: 200;
+}

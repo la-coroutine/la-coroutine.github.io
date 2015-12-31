@@ -1,5 +1,5 @@
 # Site settings
-title: La Coroutine - Créer, Apprendre, Partager
+title: "La Coroutine - Créer, Apprendre, Partager"
 email: contact@lacorotuine.org
 description: > # this means to ignore newlines until "baseurl:"
   Un espace de coworking convivial créé, géré et financé par ses usagers pour créer
@@ -11,3 +11,6 @@ github_username: la-coroutine
 
 # Build settings
 markdown: kramdown
+sass:
+  sass_dir: _sass
+  style: compressed

@@ -1,0 +1,123 @@
+#tierslieu {
+  height: 794px;
+  width: 100%;
+  position: relative;
+  background: url('../img/makerspace_bg.jpg?1363882554') no-repeat top center fixed #b29d88;
+  color: #242424;
+  z-index: 500;
+}
+
+#tierslieu .center {
+  font-family: Kankin, Verdana, Tahoma, sans-serif;
+  background: url('../img/title_border.png?1363713173') no-repeat scroll left 4px transparent;
+  display: block;
+  font-size: 3.5rem;
+  height: 172px;
+  left: 52%;
+  line-height: 3.9rem;
+  margin: 0 -83px;
+  padding: 0 0 0 25px;
+  position: absolute;
+  text-transform: uppercase;
+  top: 286px;
+  width: 166px;
+  z-index: 400;
+  color: white;
+}
+
+#tierslieu p.intro {
+  font-size: 1.05rem;
+  line-height: 1.3rem;
+  padding: 100px 0 0 15px;
+  width: 590px;
+}
+
+#tierslieu .col-left .block:first-child {
+  padding: 100px 0 145px 0;
+}
+
+#tierslieu .col-left .block:first-child {
+  margin-bottom: 20px;
+  width: 84%;
+  font-size: 1.05rem;
+  line-height: 1.3rem;
+}
+
+#tierslieu .col-left .block:last-child p {
+  margin-bottom: 10px;
+}
+
+#tierslieu .col-left .block:last-child strong {
+  font-weight: bold;
+}
+
+#tierslieu .col-right {
+  position: relative;
+  height: 500px;
+}
+
+#tierslieu .col-right .block {
+  margin-top: 350px;
+  padding-left: 10px;
+  margin-bottom: 60px;
+}
+
+#tierslieu a {
+  color: #242424;
+  position: relative;
+  z-index: 5000;
+}
+
+#tierslieu .bg {
+  background: url('../img/explosion_over.png?1363884248') no-repeat fixed 57% 115%;
+  height: 1300px;
+  margin: 0 auto;
+  padding: 0;
+  position: absolute;
+  width: 900px;
+  z-index: 200;
+}
+
+#tierslieu #meuhlab {
+  margin-top: 345px;
+}
+
+#tierslieu #meuhlab strong {
+  border-right: 1px solid #242424;
+  float: left;
+  font-size: 0.9rem;
+  line-height: 1.2rem;
+  padding: 0 10px 0 0;
+  position: relative;
+  right: 12px;
+  text-align: right;
+  top: 2px;
+  width: 150px;
+}
+
+#tierslieu #meuhpics {
+  bottom: -100px;
+  left: -100px;
+  margin: 0 auto;
+  padding: 90px 0 0;
+  position: absolute;
+  width: 400px;
+}
+
+#tierslieu #meuhpics div {
+  text-align: center;
+  width: 33%;
+  float: left;
+  height: 160px;
+}
+
+#tierslieu #meuhpics div img {
+  display: inline;
+}
+
+#tierslieu #meuhpics div p {
+  font-size: 0.75rem;
+  line-height: 0.95rem;
+  padding: 10px 0 0 15px;
+}
+

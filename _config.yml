@@ -7,8 +7,8 @@ description: > # this means to ignore newlines until "baseurl:"
   travailler, bidouiller, apprendre, innover, partager, échanger, ...
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://lacoroutine.org" # the base hostname & protocol for your site
-twitter_username: lacoroutine
-github_username: la-coroutine
+twitter: lacoroutine
+github: la-coroutine
 
 # Build settings
 markdown: kramdown

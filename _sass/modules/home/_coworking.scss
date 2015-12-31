@@ -66,7 +66,7 @@
   z-index: 200;
 }
 
-#coworking #coworkinglille strong {
+#coworking #coworkinglille strong, #coworking #coworkingvisa strong {
   border-right: 1px solid #242424;
   float: left;
   font-size: 0.9rem;
@@ -77,6 +77,12 @@
   text-align: right;
   top: 7px;
   width: 150px;
+}
+
+#coworkingvisa {
+  img {
+    width: 118px;
+  }
 }
 
 #coworking #stats {

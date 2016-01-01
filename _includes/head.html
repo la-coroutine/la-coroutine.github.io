@@ -2,6 +2,13 @@
   {% include meta_tags.html %}
 
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+
+  {% if page.url == '/index.html' %}
+    <link href="{{ site.url }}/en.html" hreflang="en" rel="alternate" />
+  {% elsif page.url == '/en.html' %}
+    <link href="{{ site.url }}/" hreflang="fr" rel="alternate" />
+  {% endif %}
+
   <link rel="shortcut icon" href="img/favico.ico" />
-  <link rel="stylesheet" href="/css/screen.css">
+  <link rel="stylesheet" href="/css/screen.css" />
 </head>

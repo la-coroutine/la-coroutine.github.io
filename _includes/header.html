@@ -1,13 +1,22 @@
 <div id="navbar">
   <ul>
-    <li class="active"><a href="/#espace">L'espace</a></li>
-    <li><a href="/#coworking">Coworking</a></li>
-    <li><a href="/#tierslieu">Tiers-lieu</a></li>
-    <li><a href="/#events">Ateliers &amp; Événements</a></li>
-    <li><a href="/#contact">Contact</a></li>
-    <li><a href="http://boutique.lacoroutine.org">Boutique</a></li>
-    <li><a href="http://wiki.lacoroutine.org">Le wiki </a></li>
+    {% if page.locale == 'en' %}
+      <li class="active"><a href="/en.html#the-space">The space</a></li>
+      <li><a href="/en.html#coworking">Coworking</a></li>
+      <li><a href="/en.html#third-place">Third-place</a></li>
+      <li><a href="/en.html#events">Workshops &amp; Events</a></li>
+      <li><a href="/en.html#contact">Contact</a></li>
+      <li><a href="http://boutique.lacoroutine.org">Shop</a></li>
+    {% else %}
+      <li class="active"><a href="/#espace">L'espace</a></li>
+      <li><a href="/#coworking">Coworking {{ page.locale }}</a></li>
+      <li><a href="/#tierslieu">Tiers-lieu</a></li>
+      <li><a href="/#events">Ateliers &amp; Événements</a></li>
+      <li><a href="/#contact">Contact</a></li>
+      <li><a href="http://boutique.lacoroutine.org">Boutique</a></li>
+      <li><a href="http://wiki.lacoroutine.org">Le wiki </a></li>
+    {% endif %}
   </ul>
-  <a target="_blank" href="https://twitter.com/lacoroutine" class="twitter" title="Aller à la page twitter de la Coroutine">Twitter</a>
-  <a target="_blank" href="http://www.facebook.com/lacoroutine" class="facebook" title="Aller à la page facebook de la Coroutine">Facebook</a>
+  <a target="_blank" href="https://twitter.com/lacoroutine" class="twitter" title="Twitter">Twitter</a>
+  <a target="_blank" href="http://www.facebook.com/lacoroutine" class="facebook" title="Facebook">Facebook</a>
 </div>

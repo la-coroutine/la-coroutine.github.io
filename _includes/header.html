@@ -17,6 +17,12 @@
       <li><a href="http://wiki.lacoroutine.org">Le wiki </a></li>
     {% endif %}
   </ul>
+
+  <ul class='langs'>
+    <li class="{% if page.url != '/en.html' %}active{% endif %}"><a href="/">FR</a></li>
+    <li class="{% if page.url == '/en.html' %}active{% endif %}"><a href="/en.html">EN</a></li>
+  </ul>
+
   <a target="_blank" href="https://twitter.com/lacoroutine" class="twitter" title="Twitter">Twitter</a>
   <a target="_blank" href="http://www.facebook.com/lacoroutine" class="facebook" title="Facebook">Facebook</a>
 </div>

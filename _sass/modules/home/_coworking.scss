@@ -1,111 +1,69 @@
-#coworking {
+.m-home--coworking {
   height: 1045px;
   width: 100%;
   position: relative;
   background: url('../img/coworking_bg.png?1363783748') no-repeat center center fixed #e6e6e6;
   color: #242424;
   z-index: 500;
-}
 
-#coworking .center {
-  font-family: Kankin, Verdana, Tahoma, sans-serif;
-  background: url('../img/title_border_black.png?1363780897') no-repeat scroll left 4px transparent;
-  display: block;
-  font-size: 3.5rem;
-  height: 172px;
-  left: 51%;
-  line-height: 3.9rem;
-  margin: 0 -83px;
-  padding: 0 0 0 25px;
-  position: absolute;
-  text-transform: uppercase;
-  top: 385px;
-  width: 166px;
-  z-index: 400;
-}
+  a {
+    color: #242424;
+    position: relative;
+    z-index: 5000;
+  }
 
-#coworking p.intro {
-  font-size: 1.05rem;
-  line-height: 1.3rem;
-  padding: 100px 0 0 15px;
-  width: 735px;
-}
+  p.intro {
+    font-size: 1.05rem;
+    line-height: 1.3rem;
+    padding: 100px 0 0 15px;
+    width: 735px;
+  }
 
-#coworking .col-left .block:first-child {
-  padding: 70px 0 42px 0;
-}
+  .bg {
+    background: url('../img/pencil_over.png?1363783880') no-repeat fixed 65% 160%;
+    height: 1300px;
+    margin: 0 auto;
+    padding: 0;
+    position: absolute;
+    width: 900px;
+    z-index: 200;
+  }
 
-#coworking .col-left .block:first-child p.first {
-  margin-bottom: 20px;
-  width: 80%;
-}
+  .center {
+    font-family: Kankin, Verdana, Tahoma, sans-serif;
+    background: url('../img/title_border_black.png?1363780897') no-repeat scroll left 4px transparent;
+    display: block;
+    font-size: 3.5rem;
+    height: 172px;
+    left: 51%;
+    line-height: 3.9rem;
+    margin: 0 -83px;
+    padding: 0 0 0 25px;
+    position: absolute;
+    text-transform: uppercase;
+    top: 385px;
+    width: 166px;
+    z-index: 400;
+  }
 
-#coworking .col-left .block:last-child p {
-  margin-bottom: 10px;
-}
+  .col-left {
+    .block:first-child {
+      padding: 70px 0 42px 0;
 
-#coworking .col-right .block:first-child {
-  margin-top: 350px;
-  padding-left: 10px;
-  margin-bottom: 60px;
-}
+      p.first {
+        margin-bottom: 20px;
+        width: 80%;
+      }
+    }
 
-#coworking a {
-  color: #242424;
-  position: relative;
-  z-index: 5000;
-}
+    .block:last-child p {
+      margin-bottom: 10px;
+    }
+  }
 
-#coworking .bg {
-  background: url('../img/pencil_over.png?1363783880') no-repeat fixed 65% 160%;
-  height: 1300px;
-  margin: 0 auto;
-  padding: 0;
-  position: absolute;
-  width: 900px;
-  z-index: 200;
-}
-
-#coworking #coworkinglille strong, #coworking #coworkingvisa strong {
-  border-right: 1px solid #242424;
-  float: left;
-  font-size: 0.9rem;
-  line-height: 1.2rem;
-  padding: 0 10px 0 0;
-  position: relative;
-  right: 12px;
-  text-align: right;
-  top: 7px;
-  width: 150px;
-}
-
-#coworkingvisa {
-  img {
-    width: 118px;
+  .col-right .block:first-child {
+    margin-top: 350px;
+    padding-left: 10px;
+    margin-bottom: 60px;
   }
 }
-
-#coworking #stats {
-  clear: both;
-  margin: 0 auto;
-  padding: 68px 0 0;
-  width: 830px;
-}
-
-#coworking #stats .stat {
-  text-align: center;
-  width: 25%;
-  float: left;
-  height: 200px;
-}
-
-#coworking #stats .stat img {
-  display: inline;
-}
-
-#coworking #stats .stat p {
-  font-size: 0.75rem;
-  line-height: 0.95rem;
-  padding: 10px 0 0 15px;
-}
-

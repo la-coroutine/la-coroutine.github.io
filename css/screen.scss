@@ -3,12 +3,16 @@
 
 @import 'compass/utilities';
 
-@import 'layout';
+@import 'components/partners';
+@import 'components/pics';
+@import 'components/stats';
+
+@import 'layouts/global';
 @import 'layouts/page';
 @import 'layouts/navbar';
 
 @import 'modules/agenda';
-@import 'modules/home';
+@import 'modules/home/banners';
 @import 'modules/home/contact';
 @import 'modules/home/coworking';
 @import 'modules/home/events';

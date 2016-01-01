@@ -1,0 +1,57 @@
+.m-home--banners {
+  height: 950px;
+  width: 100%;
+
+  h1 img {
+    display: block;
+    margin: 115px auto 0;
+  }
+
+  .top {
+    height: 355px;
+    width: 100%;
+    padding: 1px 0 0 0;
+    /*background:url('../img/video_coco.jpg') no-repeat center top #707070;*/
+  }
+
+  .m-home--banners--menu {
+    width: 890px;
+    height: 200px;
+    margin: 45px auto 0;
+
+    li {
+      font-family: Kankin, Verdana, Tahoma, sans-serif;
+      display: block;
+      float: left;
+      width: 200px;
+      padding: 0 60px 0 0;
+      margin: 0 0 0 50px;
+
+      &:last-child {
+        margin: 0;
+        width: 210px;
+      }
+
+      a {
+        color: #242424;
+        font-size: 3rem;
+        line-height: 3.3rem;
+        text-decoration: none;
+        text-transform: uppercase;
+        display: block;
+        float: left;
+        width: 100%;
+        padding: 32px 0 0 0;
+        background: url('../img/menu_hover.gif?1363621409') no-repeat -210px -11px;
+        -webkit-transition: background 0.2s ease-in;
+        -moz-transition: background 0.2s ease-in;
+        -o-transition: background 0.2s ease-in;
+        transition: background 0.2s ease-in;
+
+        &:hover {
+          background: url('../img/menu_hover.gif?1363621409') no-repeat -210px 0;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,23 @@
+.stats {
+  clear: both;
+  margin: 0 auto;
+  padding: 68px 0 0;
+  width: 830px;
+
+  .stat {
+    text-align: center;
+    width: 25%;
+    float: left;
+    height: 200px;
+
+    img {
+      display: inline;
+    }
+
+    p {
+      font-size: 0.75rem;
+      line-height: 0.95rem;
+      padding: 10px 0 0 15px;
+    }
+  }
+}

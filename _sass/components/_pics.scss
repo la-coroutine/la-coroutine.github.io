@@ -1,0 +1,29 @@
+.pics {
+  bottom: -100px;
+  left: -100px;
+  margin: 0 auto;
+  padding: 90px 0 0;
+  position: absolute;
+  width: 400px;
+
+  a {
+    text-decoration: none;
+  }
+
+  div {
+    text-align: center;
+    width: 33%;
+    float: left;
+    height: 160px;
+
+    img {
+      display: inline;
+    }
+
+    p {
+      font-size: 0.75rem;
+      line-height: 0.95rem;
+      padding: 10px 0 0 15px;
+    }
+  }
+}

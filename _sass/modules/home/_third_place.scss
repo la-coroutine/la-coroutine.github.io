@@ -2,12 +2,12 @@
   height: 794px;
   width: 100%;
   position: relative;
-  background: url('../img/makerspace_bg.jpg?1363882554') no-repeat top center fixed #b29d88;
-  color: #242424;
+  background: url('../img/makerspace_bg.jpg?1363882554') no-repeat top center fixed $third-place-background-color;
+  color: $primary-color;
   z-index: 500;
 
   a {
-    color: #242424;
+    color: $primary-color;
     position: relative;
     z-index: 5000;
   }

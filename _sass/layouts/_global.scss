@@ -19,14 +19,14 @@ body {
 }
 
 a {
-  color: #242424;
+  color: $primary-color;
 
   &:active, &:visited {
-    color: #242424;
+    color: $primary-color;
   }
 
   &:hover {
-    color: #242424;
+    color: $primary-color;
     text-decoration: underline;
   }
 }
@@ -82,7 +82,7 @@ a {
 }
 
 footer {
-  background: none repeat scroll 0 0 #242424;
+  background: none repeat scroll 0 0 $primary-color;
   color: white;
   font-size: 0.8rem;
   line-height: 1.3rem;

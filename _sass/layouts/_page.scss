@@ -1,11 +1,11 @@
 .l-page {
-  background: #e6e6e6 url('../img/page_bg.png?1363783748') no-repeat fixed center center;
-  color: #242424;
+  background: $body-background url('../img/page_bg.png?1363783748') no-repeat fixed center center;
+  color: $primary-color;
   min-height: 670px;
   padding-top: 60px;
 
   h1 {
-    color: #242424;
+    color: $primary-color;
     font-family: Kankin, Verdana, Tahoma, sans-serif;
     font-size: 3rem;
     line-height: 3.3rem;

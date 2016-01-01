@@ -1,5 +1,5 @@
 .m-ustream {
-  background-color: #51B8A7;
+  background-color: $turquoise;
   margin-top: -1px;
 
   a, a:hover, a:active {
@@ -53,8 +53,8 @@
       -moz-border-radius: 9;
       border-radius: 9px;
 
-      background: #D72070;
-      color: #ffffff;
+      background: $dark-pink;
+      color: $white;
       display: inline-block;
       margin-top: 1rem;
       padding: 10px 20px 10px 20px;
@@ -62,7 +62,7 @@
       text-transform: uppercase;
 
       &:hover {
-        background: #E52779;
+        background: scale-color($dark-pink, $lightness: +15%);
       }
     }
   }

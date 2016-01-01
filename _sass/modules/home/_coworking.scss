@@ -2,12 +2,12 @@
   height: 1045px;
   width: 100%;
   position: relative;
-  background: url('../img/coworking_bg.png?1363783748') no-repeat center center fixed #e6e6e6;
-  color: #242424;
+  background: url('../img/coworking_bg.png?1363783748') no-repeat center center fixed $body-background;
+  color: $primary-color;
   z-index: 500;
 
   a {
-    color: #242424;
+    color: $primary-color;
     position: relative;
     z-index: 5000;
   }

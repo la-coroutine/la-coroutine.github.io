@@ -2,12 +2,12 @@
   height: 775px;
   width: 100%;
   position: relative;
-  background: url('../img/events_bg.jpg?1363947269') no-repeat top center #e4e4e4;
-  color: #242424;
+  background: url('../img/events_bg.jpg?1363947269') no-repeat top center $body-background;
+  color: $primary-color;
   z-index: 500;
 
   a {
-    color: #242424;
+    color: $primary-color;
   }
 
   .center {

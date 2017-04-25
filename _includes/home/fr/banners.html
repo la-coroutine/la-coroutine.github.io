@@ -8,9 +8,11 @@
       <a href="{{ site.data.messages.home.link }}">
         <div class="m-ustream--container">
 
+            {% if site.data.messages.home.picture %}
             <div class="picture">
               <img src="img/{{ site.data.messages.home.picture }}" alt="Evénement à la Coroutine" />
             </div>
+            {% endif %}
 
             <div class='content'>
               <h2>{{ site.data.messages.home.title }}</h2>

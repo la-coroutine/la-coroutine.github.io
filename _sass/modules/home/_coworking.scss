@@ -26,7 +26,7 @@
     padding: 0;
     position: absolute;
     width: 900px;
-    z-index: 200;
+    z-index: 1;
   }
 
   .center {
@@ -62,8 +62,13 @@
   }
 
   .col-right .block:first-child {
-    margin-top: 350px;
-    padding-left: 10px;
-    margin-bottom: 60px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+
+  .m-pricing {
+    font-size: 0.85rem;
+    position: relative;
+    z-index: 400;
   }
 }

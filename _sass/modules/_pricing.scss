@@ -1,0 +1,30 @@
+.m-pricing {
+  margin-left: 15px;
+  margin-bottom: 1rem;
+  background-color: $white;
+
+  thead {
+    background-color: $dark-grey;
+    color: $white;
+  }
+
+  th, td {
+    padding: 0.5rem 2rem;
+  }
+
+  th {
+    font-weight: bold;
+  }
+
+  td {
+    text-align: center;
+  }
+
+  tbody tr {
+    border-top: 2px solid $light-grey;
+  }
+
+  tbody tr:first-child {
+    border-top: none;
+  }
+}

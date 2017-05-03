@@ -1,4 +1,18 @@
+// overrides from Global stylesheet
+.m-agenda, .m-meeting-room {
+  p, p a {
+    font-size: 0.9rem;
+  }
+}
+
 .m-agenda {
+  display: flex;
+  justify-content: space-between;
+
+  iframe {
+    margin-top: 1rem;
+  }
+
   .col-right {
     float: left;
     width: 310px;
@@ -10,10 +24,24 @@
     padding-bottom: 0px !important;
   }
 
+  .google-agenda-link, .google-agenda-link a {
+    font-size: 0.75rem;
+    margin-top: 0.5rem;
+    padding-left: 0;
+  }
+
   .prices {
     display: block;
     margin-top: 1rem;
     text-align: right;
     text-decoration: underline;
+  }
+}
+
+.m-meeting-room {
+  padding-bottom: 1rem;
+
+  .block {
+    width: auto;
   }
 }

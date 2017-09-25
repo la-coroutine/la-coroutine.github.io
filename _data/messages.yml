@@ -6,7 +6,4 @@
 #   link: "https://www.facebook.com/events/1058385214194684/"
 #   picture: "events/20160116-fete-cinq-ans.jpg"
 home:
-  title: "Samedi 23 Septembre - CocoParty dans le TURFU"
-  content: |
-    Cette soirée spéciale sera sous le thème du FUTUR. Au programme, concerts, DJs & bière artisanale.
-  link: https://www.facebook.com/events/135909383671869/
+  # no message
